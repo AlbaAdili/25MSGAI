@@ -30,7 +30,15 @@ Alternatively you can use [colab](https://colab.google.com) to run the different
 
 ### Technical requirements
 
-The code will be written in **Python** using **Pytorch** for the experiments. The lab is designed to run on Linux or a similar platform. We provide the environment required in the file [lab1to4_requirements-env-cuda](Lab1to4_requirements-env-cuda.txt).
+The code will be written in **Python** using **Pytorch** for the experiments.
+Make sure the python version is 3.11.*, preferably 3.11.9.
+
+If using linux, make sure to create a notebook kernel from the virtual environment you create:
+```bash
+ipython kernel install --user --name=.venv
+```
+
+We provide the environment required in the file [lab1to4_requirements-env-cuda](Lab1to4_requirements-env-cuda.txt).
 
 ````bash
 python -m venv .venv
